@@ -4,15 +4,10 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build && cd server && nest build",
-    "build:front": "vite build",
-    "build:back": "cd server && nest build",
-    "lint": "eslint .",
-    "preview": "vite preview",
-    "server": "cd server && nest start --watch",
-    "start:back": "cd server && node dist/main.js",
-    "dev:all": "concurrently \"npm run dev\" \"npm run server\""
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview",
+  "lint": "eslint ."
   },
   "dependencies": {
     "lucide-react": "^0.344.0",
