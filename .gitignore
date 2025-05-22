@@ -1,0 +1,38 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dépendances
+node_modules/
+
+# Builds
+node_modules/
+dist/
+.env
+dist-ssr/
+server/dist/
+server/public/
+
+# Fichiers locaux
+*.local
+
+# Config éditeurs
+.vscode/
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Variables d'environnement
+.env
+server/.env
+
+# Docker
+docker-compose.override.yml
